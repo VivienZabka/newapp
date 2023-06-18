@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(-225deg, #77587c 0%, #7f7b81 48%, #a095dc 100%);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Tangerine", serif;
+  color: rgb(125, 78, 146);
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  margin-top: 3px;
+  padding: 0;
+  color: rgb(119, 52, 150);
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.weather-app {
+  padding: 40px;
+  height: 500px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90.7deg,
+    rgb(255, 253, 218) 1.9%,
+    rgb(246, 210, 255) 39.3%,
+    rgb(152, 222, 254) 64.7%,
+    rgb(251, 255, 210) 100.8%
+  );
+}
+
+.form-control {
+  background-color: #fdfdfd;
+}
+
+.search-btn {
+  background-color: rgb(119, 52, 150);
+  color: #fae1fa;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid;
+  border-color: rgb(119, 52, 150);
+  width: 60%;
+}
+.search-btn:hover {
+  opacity: 0.6;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(119, 52, 150);
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 15px;
+  top: -30px;
+}
+
+.weather-temperature .active {
+  color: #f7e3f7;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 70px;
+  text-align: center;
+  color: #f7e3f7;
+}
+
+.weather-forecast-date {
+  font-size: 25px;
+  color: rgb(119, 52, 150);
+}
+
+.weather-forecast-temperature-max {
+  font-size: 20px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+  font-size: 20px;
+}
+.weather-forecast-temperature {
+  font-size: 15px;
+  color: rgb(119, 52, 150);
+}
