@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(-225deg, #77587c 0%, #7f7b81 48%, #a095dc 100%);
+  background: linear-gradient(-225deg, #d6ccd7 0%, #7f7b81 48%, #2c0bea 100%);
   background-attachment: fixed;
 }
 
@@ -24,7 +24,7 @@ li {
   margin-top: 3px;
   padding: 0;
   color: rgb(119, 52, 150);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 100;
   line-height: 20px;
 }
@@ -44,10 +44,10 @@ li:first-letter {
   border-radius: 10px;
   background: linear-gradient(
     90.7deg,
-    rgb(255, 253, 218) 1.9%,
-    rgb(246, 210, 255) 39.3%,
-    rgb(152, 222, 254) 64.7%,
-    rgb(251, 255, 210) 100.8%
+    rgb(244, 243, 236) 1.9%,
+    rgb(216, 145, 234) 39.3%,
+    rgb(176, 118, 135) 64.7%,
+    rgb(10, 169, 232) 100.8%
   );
 }
 
@@ -81,14 +81,14 @@ li:first-letter {
 
 .weather-temperature strong {
   color: rgb(119, 52, 150);
-  font-size: 60px;
+  font-size: 70px;
   line-height: 1;
   font-weight: 400;
 }
 
 .weather-temperature .units {
   position: relative;
-  font-size: 15px;
+  font-size: 19px;
   top: -30px;
 }
 
@@ -122,4 +122,8 @@ li:first-letter {
 .weather-forecast-temperature {
   font-size: 15px;
   color: rgb(119, 52, 150);
+}
+.footer {
+  font-family: "Tangerine", serif;
+  font-size: large;
 }
