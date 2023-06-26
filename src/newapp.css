@@ -124,6 +124,6 @@ li:first-letter {
   color: rgb(119, 52, 150);
 }
 .footer {
-  font-family: "Tangerine", serif;
-  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
 }
